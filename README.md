@@ -171,7 +171,6 @@ git clone https://github.com/AWbosman/SYMPHONY.git
 
 Build SYMPHONY following the installation instructions provided in that repository.
 
-**TODO:** Add the exact commands and dependency versions used to build SYMPHONY for the paper.
 
 ## Running the experiments
 
@@ -193,7 +192,6 @@ Before running an experiment, update any machine-specific paths in the configura
 4. the compiled SYMPHONY executable; and
 5. the desired output directory.
 
-**TODO:** Document the exact configuration file(s) corresponding to each experiment in the paper.
 
 An experiment can then be launched from the VERONA environment using the corresponding script, for example:
 
@@ -215,7 +213,6 @@ python scripts/reformulate_mps.py input.mps output.mps
 
 The script replaces the relevant indicator constraints with an equivalent formulation that can be processed by SYMPHONY.
 
-**TODO:** Clarify whether this step is called automatically by the `VerificationModule` or needs to be executed separately.
 
 ## Reproducing the analysis
 
